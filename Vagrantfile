@@ -13,7 +13,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.network "forwarded_port", guest: 80, host: 8082
 
   # ensure chef is install in vm
-  config.omnibus.chef_version = :latest
+  config.omnibus.chef_version = "11.18.6"
 
   # download all required cookbooks
   config.berkshelf.enabled = true
