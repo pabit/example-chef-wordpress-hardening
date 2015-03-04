@@ -11,6 +11,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # forward port 80 to 8080 on host machine
   config.vm.network "forwarded_port", guest: 80, host: 8082
+  config.vm.network "private_network", type: "dhcp"
 
   # ensure chef is install in vm
   config.omnibus.chef_version = "11.18.6"
