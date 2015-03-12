@@ -9,4 +9,4 @@ cookbook 'database' , "2.3.1"
 cookbook 'nginx'
 cookbook 'nginx-hardening', git: 'https://github.com/TelekomLabs/chef-nginx-hardening.git'
 cookbook 'mysql-hardening', git: 'https://github.com/TelekomLabs/chef-mysql-hardening.git'
-cookbook 'wordpress' , git: 'https://github.com/brint/wordpress-cookbook.git'
+cookbook 'wordpress' , "2.3.0"
