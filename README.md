@@ -9,13 +9,6 @@ This example installs the following hardening modules:
 - [chef-mysql-hardening](https://github.com/TelekomLabs/chef-mysql-hardening)
 - [chef-nginx-hardening](https://github.com/TelekomLabs/chef-nginx-hardening)
 
-## Use with knife solo
-
-### Prerequisites
-
- - Install [ChefDK](https://downloads.getchef.com/chef-dk)
- - Install knife-solo via `gem install knife-solo`
-
 ## Use with vagrant
 
 ### Prerequisites
@@ -25,6 +18,20 @@ This example installs the following hardening modules:
  - Install [ChefDK](https://downloads.getchef.com/chef-dk)
  - Install Vagrant Berkshelf via `vagrant plugin install vagrant-berkshelf`
  - Install Vagrant Omnibus via `vagrant plugin install vagrant-omnibus`
+
+### Start
+
+```bash
+vagrant up
+open http://localhost:8082
+```
+
+## Use with knife solo
+
+### Prerequisites
+
+ - Install [ChefDK](https://downloads.getchef.com/chef-dk)
+ - Install knife-solo via `gem install knife-solo`
 
 ## License and Author
 
