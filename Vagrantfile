@@ -11,7 +11,7 @@ Vagrant.configure("2") do |config|
   config.vm.network "private_network", type: "dhcp"
 
   # ensure chef is install in vm
-  config.omnibus.chef_version = "11.18.6"
+  config.omnibus.chef_version = "12.5.1"
 
   # download all required cookbooks
   config.berkshelf.enabled = true

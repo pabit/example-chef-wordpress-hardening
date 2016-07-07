@@ -4,10 +4,10 @@ Demonstrates the use of the hardening cookbooks via Chef to increase the securit
 
 This example installs the following hardening modules:
 
-- [chef-os-hardening](https://github.com/TelekomLabs/chef-os-hardening)
-- [chef-ssh-hardening](https://github.com/TelekomLabs/chef-ssh-hardening)
-- [chef-mysql-hardening](https://github.com/TelekomLabs/chef-mysql-hardening)
-- [chef-nginx-hardening](https://github.com/TelekomLabs/chef-nginx-hardening)
+- [chef-os-hardening](https://github.com/dev-sec/chef-os-hardening)
+- [chef-ssh-hardening](https://github.com/dev-sec/chef-ssh-hardening)
+- [chef-mysql-hardening](https://github.com/dev-sec/chef-mysql-hardening)
+- [chef-nginx-hardening](https://github.com/dev-sec/chef-nginx-hardening)
 
 ## Use with vagrant
 
